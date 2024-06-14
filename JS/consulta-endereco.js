@@ -23,6 +23,6 @@ function popularForm(resposta){
     console.log(resposta);
     rua.value = resposta.logradouro;
     bairro.value = resposta.bairro;
-    cidade.value = reposta.localidade;
+    cidade.value = resposta.localidade;
     estado.value = resposta.uf;
 }
