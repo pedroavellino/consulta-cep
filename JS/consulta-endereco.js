@@ -16,7 +16,7 @@ cep.addEventListener('blur', function(e){
 function popularForm(resposta){
 
     if("erro" in resposta){
-        alert("CEP não encontrado");
+        alert('CEP não encontrado');
         return;
     }
 
@@ -24,5 +24,5 @@ function popularForm(resposta){
     rua.value = resposta.logradouro;
     bairro.value = resposta.bairro;
     cidade.value = reposta.localidade;
-    estado.value = resposta.estado.uf;
+    estado.value = resposta.uf;
 }
